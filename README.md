@@ -1,5 +1,7 @@
 # PersonalContacts
 
+This project was created only to support my angular studies/tests. Nothing Special, just some pages and a crud.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 
 ## Development server
