@@ -1,6 +1,8 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { BrowserModule } from '@angular/platform-browser';
+import { CollapseModule } from 'ngx-bootstrap/collapse';
+import { NgModule } from '@angular/core';
+
 
 
 import { AppComponent } from './app.component';
@@ -18,7 +20,8 @@ import { LoginComponent } from './login/login.component';
   ],
   imports: [
     BrowserModule,
-    BsDropdownModule.forRoot()
+    BsDropdownModule.forRoot(),
+    CollapseModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
