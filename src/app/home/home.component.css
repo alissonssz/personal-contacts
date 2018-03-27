@@ -7,7 +7,7 @@
 }
 
 .full-container{
-    max-height: 500px;
+    max-height: 600px;
 }
 
 .full-padding{
@@ -19,3 +19,11 @@
     margin-right:auto;
     display:block;
  }
+
+.img-md20 {
+    font-size: 20px!important; 
+  }
+.spacing-img{
+    margin-bottom: 20px;
+}
+
