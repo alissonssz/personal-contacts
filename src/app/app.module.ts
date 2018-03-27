@@ -14,6 +14,7 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { ContactListComponent } from './contacts/contact-list/contact-list.component';
 import { ContactComponent } from './contacts/contact-list/contact/contact.component';
 import { EditContactComponent } from './contacts/edit-contact/edit-contact.component';
+import { AddContactComponent } from './contacts/add-contact/add-contact.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { EditContactComponent } from './contacts/edit-contact/edit-contact.compo
     HomeComponent,
     LoginComponent,
     NavComponent,
-    RegisterComponent
+    RegisterComponent,
+    AddContactComponent
   ],
   imports: [
     AppRoutingModule,
