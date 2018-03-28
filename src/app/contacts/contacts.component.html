@@ -1,16 +1,12 @@
 <div class="container">
     <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-4 setting-top-margin">
             <div class="card" style="width: 18rem;">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Cras justo odio</li>
-                    <li class="list-group-item">Dapibus ac facilisis in</li>
-                    <li class="list-group-item">Vestibulum at eros</li>
-                </ul>
+                <app-list-contact></app-list-contact>
             </div>
         </div>
-        <div class="col-sm-8">
-            One of three columns
+        <div class="col-sm-8 setting-top-margin">
+            <router-outlet></router-outlet>
         </div>
     </div>
 </div>

@@ -11,17 +11,18 @@ import { LoginComponent } from './login/login.component';
 import { FooterComponent } from './footer/footer.component';
 import { RegisterComponent } from './register/register.component';
 import { ContactsComponent } from './contacts/contacts.component';
-import { ContactListComponent } from './contacts/contact-list/contact-list.component';
-import { ContactComponent } from './contacts/contact-list/contact/contact.component';
+import { ListContactComponent } from './contacts/list-contact/list-contact.component';
+import { ContactComponent } from './contacts/list-contact/contact/contact.component';
 import { EditContactComponent } from './contacts/edit-contact/edit-contact.component';
 import { AddContactComponent } from './contacts/add-contact/add-contact.component';
+import { ListContactService } from './contacts/list-contact/list-contact.service';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ContactsComponent,
-    ContactListComponent,
+    ListContactComponent,
     ContactComponent,
     EditContactComponent,
     FooterComponent,
@@ -37,7 +38,7 @@ import { AddContactComponent } from './contacts/add-contact/add-contact.componen
     BsDropdownModule.forRoot(),
     CollapseModule.forRoot(),
   ],
-  providers: [],
+  providers: [ListContactService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
