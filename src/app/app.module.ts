@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -37,6 +38,7 @@ import { ListContactService } from './contacts/list-contact/list-contact.service
     BrowserModule,
     BsDropdownModule.forRoot(),
     CollapseModule.forRoot(),
+    FormsModule
   ],
   providers: [ListContactService],
   bootstrap: [AppComponent]

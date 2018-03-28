@@ -1,29 +1,10 @@
+import { Contact } from '../contact.model';
+
 export class ListContactService {
-    private contacts = [
-        {
-            id: 1,
-            name: 'Alisson Santos de Souza',
-            number: ['83999415505', '83999998888'],
-            email: 'alissonssz@hotmail.com',
-            socialMedias: [],
-            favorite: false
-        },
-        {
-            id: 2,
-            name: 'Pé de Mano da Silva',
-            number: ['83999415505', '83999998888'],
-            email: 'pepano@hotmail.com',
-            socialMedias: [],
-            favorite: false
-        },
-        {
-            id: 3,
-            name: 'Pedro Alvares Cabral',
-            number: ['83999415505', '83999998888'],
-            email: 'pcabral@hotmail.com',
-            socialMedias: [],
-            favorite: false
-        }
+    private contacts: Contact[] = [
+        new Contact(1, 'Alisson Santos de Souza', '83999415505', 'alissonssz@hotmail.com', [], false),
+        new Contact(2, 'Pé de Mano da Silva', '83999415505', 'pepano@hotmail.com', [], false),
+        new Contact(3, 'Pedro Alvares Cabral', '83999415505', 'pacabral@hotmail.com', [], false)
     ];
 
     getContacts() {

@@ -1,8 +1,20 @@
 <form>
-    <div class="form-row">
-      <div class="form-group col-md-6">
-        <label for="inputEmail4">Email</label>
-        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-      </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <input name="name" type="text" class="form-control" id="inputName" placeholder="Nome" [(ngModel)]="contact.name">
     </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <input name="phone" type="text" class="form-control" id="inputPhone" placeholder="Phone" [(ngModel)]="contact.phone">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <input name="email" type="email" class="form-control" id="inputEmail" placeholder="Email" [(ngModel)]="contact.email">
+    </div>
+  </div>
+
+
+  <span>{{contact.id}}</span>
 </form>
