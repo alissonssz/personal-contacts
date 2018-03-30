@@ -24,5 +24,8 @@ export class EditContactComponent implements OnInit {
       }
     );
   }
-
+  redirectToSocialMedia(link: string) {
+    console.log(link);
+    window.open('https://www.google.com', '_blank');
+  }
 }

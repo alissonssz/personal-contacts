@@ -21,7 +21,8 @@
       "styles": [
         "../node_modules/bootstrap/dist/css/bootstrap.min.css",
        "styles.scss",
-       "../src/assets/dripicons/dripicons-webfont.css"
+       "../src/assets/dripicons/dripicons-webfont.css",
+       "../src/assets/icomoon/icomoon-style.css"
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.min.js",

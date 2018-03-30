@@ -31,7 +31,7 @@ import { ListContactService } from './contacts/list-contact/list-contact.service
     LoginComponent,
     NavComponent,
     RegisterComponent,
-    AddContactComponent
+    AddContactComponent,
   ],
   imports: [
     AppRoutingModule,
