@@ -13,7 +13,7 @@ export class ContactsComponent implements OnInit {
   ngOnInit() {
   }
 
-  callAddContact() {
+  onAddContact() {
     this.router.navigate(['add-contact'], {relativeTo: this.route});
   }
 
