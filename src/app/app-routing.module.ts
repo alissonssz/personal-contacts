@@ -5,6 +5,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { EditContactComponent } from './contacts/edit-contact/edit-contact.component';
+import { AddContactComponent } from './contacts/add-contact/add-contact.component';
 
 const appRoutes: Routes = [
     {path: '', component: HomeComponent},
@@ -12,7 +13,8 @@ const appRoutes: Routes = [
     {path: 'login', component: LoginComponent},
     {path: 'register', component: RegisterComponent},
     {path: 'contacts', component: ContactsComponent, children: [
-        {path: ':id/edit-contact', component: EditContactComponent}
+        {path: ':id/edit-contact', component: EditContactComponent},
+        {path: 'add-contact', component: AddContactComponent}
     ]},
     {path: '**', redirectTo: ''}
 ];
