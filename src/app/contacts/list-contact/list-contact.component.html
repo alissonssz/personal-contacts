@@ -1,0 +1,3 @@
+<div class="list-group scrolling">
+    <app-contact (click)="onEditContact(contact.id)" *ngFor="let contact of contacts" [contact]="contact" class="list-group-item setting-pointer"></app-contact>
+</div>

@@ -1,0 +1,29 @@
+.white-bg{
+    background-color: #ffffff;
+}
+
+.blue-bg{
+    background-color: #9fd4f871;
+}
+
+.full-container{
+    max-height: 600px;
+}
+
+.full-padding{
+    padding: 90px 0px;
+}
+
+.center-block {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+ }
+
+.img-md20 {
+    font-size: 20px!important; 
+  }
+.spacing-img{
+    margin-bottom: 20px;
+}
+
