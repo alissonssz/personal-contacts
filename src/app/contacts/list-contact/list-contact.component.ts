@@ -22,8 +22,8 @@ export class ListContactComponent implements OnInit {
     console.log('contacts: ' + this.contacts);
   }
 
-  onEditContact(id: string){
+  onEditContact(id: string) {
     console.log('clicked');
-    this.router.navigate(['contacts', id, 'edit-contact']);
+    this.router.navigate([id, 'edit-contact'], {relativeTo: this.route});
   }
 }
