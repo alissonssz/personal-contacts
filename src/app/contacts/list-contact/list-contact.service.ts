@@ -6,7 +6,7 @@ export class ListContactService {
 
         // tslint:disable-next-line:max-line-length
         new Contact(1, 'Alisson Santos de Souza', '83999415505', 'alissonssz@hotmail.com', [new SocialMedia('Twitter', 'twitter.com/alissonssz', 'twitter'), new SocialMedia('Linkedin', 'linkedin.com/alissonssz', 'linkedin')], false),
-        new Contact(2, 'Pé de Mano da Silva', '83999415505', 'pepano@hotmail.com', null, false),
+        new Contact(2, 'Pé de Pano da Silva', '83999415505', 'pepano@hotmail.com', null, false),
         // tslint:disable-next-line:max-line-length
         new Contact(3, 'Pedro Alvares Cabral', '83999415505', 'pacabral@hotmail.com', [new SocialMedia('Instagram', '@pacabral', 'instagram')], false)
     ];
